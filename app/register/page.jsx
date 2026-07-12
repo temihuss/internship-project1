@@ -60,5 +60,5 @@ export default function RegisterPage(){
                 <p>Already have an account? <Link href="/login">Login here</Link></p>
             </div>
         </div>
-    )
+    );
 }
