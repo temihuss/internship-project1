@@ -1,5 +1,6 @@
 'use client';
 
+import Link from "next/link";
 import { useState } from "react";
 import { useRouter} from 'next/navigation';
 
@@ -45,6 +46,10 @@ export default function LoginPage(){
 
                 <button type="submit">Login</button>
             </form>
+
+            <div>
+                <p>Don't have an account? <Link href="/register">Register Here</Link></p>
+            </div>
         </div>
     );
 }
