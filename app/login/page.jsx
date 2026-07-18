@@ -17,7 +17,6 @@ export default function LoginPage(){
     console.log("Email captured:", email);
     console.log("Password captured:", password);
 
-    alert("Check your browser console for data! Redirecting to Home...");
     router.push('/');
     };
 
