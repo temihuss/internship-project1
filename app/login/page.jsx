@@ -17,7 +17,7 @@ export default function LoginPage(){
     console.log("Email captured:", email);
     console.log("Password captured:", password);
 
-    router.push('/');
+    router.push('/dashboard');
     };
 
     return(

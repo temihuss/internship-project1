@@ -20,21 +20,21 @@ export default function Home() {
   </div>
 </div>
         <div className="flex items-center gap-8">
-          <link href="#" className="hover:text-blue-600">
+          <Link href="#" className="hover:text-blue-600">
   Home
-</link>
+</Link>
 
-<link href="#" className="hover:text-blue-600">
+<Link href="#" className="hover:text-blue-600">
   About
-</link>
+</Link>
 
-<link href="#" className="hover:text-blue-600">
+<Link href="#" className="hover:text-blue-600">
   Programs
-</link>
+</Link>
 
-<link href="#" className="hover:text-blue-600">
+<Link href="#" className="hover:text-blue-600">
   Contact
-</link>
+</Link>
  <Link href="/login" className="rounded-full border border-blue-600 px-5 py-2 text-blue-600 transition hover:bg-blue-600 hover:text-white">
         Login
         </Link>

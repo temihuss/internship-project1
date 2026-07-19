@@ -19,7 +19,7 @@ export default function RegisterPage(){
         console.log("Email:", email);
         console.log("Password:", password);
         alert("Registration successful! Check your console. Redirecting to login...");
-        router.push('/login');
+        router.push('/dashboard');
     };
 
     return(
