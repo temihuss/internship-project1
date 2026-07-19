@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-slate-50 ">
+    <main className="min-h-screen bg-slate-50 font-serif">
       <nav className="flex items-center justify-between px-10 py-6">
         <div className="flex items-center gap-3">
   <div className="flex h-10 w-10 items-center justify-center rounded-full bg-blue-600 text-2xl">
@@ -20,21 +20,21 @@ export default function Home() {
   </div>
 </div>
         <div className="flex items-center gap-8">
-          <a href="#" className="hover:text-blue-600">
+          <link href="#" className="hover:text-blue-600">
   Home
-</a>
+</link>
 
-<a href="#" className="hover:text-blue-600">
+<link href="#" className="hover:text-blue-600">
   About
-</a>
+</link>
 
-<a href="#" className="hover:text-blue-600">
+<link href="#" className="hover:text-blue-600">
   Programs
-</a>
+</link>
 
-<a href="#" className="hover:text-blue-600">
+<link href="#" className="hover:text-blue-600">
   Contact
-</a>
+</link>
  <Link href="/login" className="rounded-full border border-blue-600 px-5 py-2 text-blue-600 transition hover:bg-blue-600 hover:text-white">
         Login
         </Link>
@@ -74,7 +74,7 @@ export default function Home() {
         </div>
       </section>
       
-
+        
       
     
 </main>
